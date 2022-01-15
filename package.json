@@ -1,0 +1,35 @@
+{
+  "name": "minimal",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "c3fadfc3-006c-4e8b-af3a-283a4acba777",
+    "appType": "clockface",
+    "appDisplayName": "Minimalist",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_activity",
+      "access_location",
+      "access_heart_rate",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "dependencies": {
+    "fitbit-weather": "^0.2.3"
+  }
+}

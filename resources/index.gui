@@ -1,0 +1,8 @@
+<svg id="background">
+  <text id="steps">-- steps</text>
+  <text id="heart">-- bpm</text>
+  <text id="battery">-- %</text>
+  <text id="time">--:--</text>
+  <text id="weather">-- °C</text>
+  <text id="description">--</text>
+</svg>

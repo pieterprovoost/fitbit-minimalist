@@ -1,0 +1,61 @@
+#background {
+  fill: #000000;  
+}
+
+text {
+  text-length: 32;
+}
+
+#time {
+    x: 50%;
+    y: 50%+40;
+    font-size: 80;
+    font-family: System-Regular;
+    text-anchor: middle;
+    fill: #ffffff;
+}
+
+#steps {
+    x: 50%;
+    y: 10%+15;
+    font-size: 30;
+    font-family: System-Regular;
+    text-anchor: middle;
+    fill: #888888;
+}
+
+#heart {
+    x: 50%;
+    y: 20%+15;
+    font-size: 30;
+    font-family: System-Regular;
+    text-anchor: middle;
+    fill: #888888;
+}
+
+#battery {
+    x: 50%;
+    y: 30%+15;
+    font-size: 30;
+    font-family: System-Regular;
+    text-anchor: middle;
+    fill: #888888;
+}
+
+#weather {
+    x: 50%;
+    y: 75%+15;
+    font-size: 30;
+    font-family: System-Regular;
+    text-anchor: middle;
+    fill: #888888;
+}
+
+#description {
+    x: 50%;
+    y: 85%+15;
+    font-size: 30;
+    font-family: System-Regular;
+    text-anchor: middle;
+    fill: #888888;
+}
